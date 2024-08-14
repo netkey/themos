@@ -2,9 +2,9 @@ package main
 
 import (
 	"flag"
-	"log"
 
 	"github.com/netkey/themos/internal/audi/config"
+	"github.com/netkey/themos/pkg/log"
 
 	_ "go.uber.org/automaxprocs"
 )
