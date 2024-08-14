@@ -1,3 +1,3 @@
-module github.com/netkey/audi
+module themos
 
 go 1.22

@@ -4,11 +4,13 @@ import (
 	"flag"
 	"log"
 
-	"github.com/netkey/audi/config"
+	"github.com/netkey/themos/internal/audi/config"
+
+	_ "go.uber.org/automaxprocs"
 )
 
 func main() {
-	log.Println("Starting microservice")
+	log.Printf("Starting microservice: %s", config.ServiceName)
 
 	flag.Parse()
 
